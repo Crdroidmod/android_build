@@ -56,7 +56,7 @@ if [ -n "$BUILD_THUMBPRINT" ] ; then
   echo "ro.build.thumbprint=$BUILD_THUMBPRINT"
 fi
 
-echo "ro.lineage.device=$LINEAGE_DEVICE"
+echo "ro.custom.device=$LINEAGE_DEVICE"
 echo "ro.crdroid.device=$LINEAGE_DEVICE"
 
 echo "# end build properties"
